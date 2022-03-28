@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {      .content-auto {        content-visibility: auto;      }    }  </style>
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container mx-auto bg-green-500 mt-[50px] p-[5px]">
+            <h1 class="text-center text-white text-[25px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">HOME</h1>
+
+            <div class="link p-[5px]">
+                <button  class=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded "><a href="/">HOME </a> </button>
+                <button  class=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"><a href="/login">LOGIN</a></button>
+             
+                <button class=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded "><a href="/register">REGISTER</a></button>
+
+            </div>
+
+
+           
+
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
